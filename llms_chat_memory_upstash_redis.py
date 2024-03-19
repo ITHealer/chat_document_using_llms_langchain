@@ -11,7 +11,7 @@ from langchain.prompts import (
 )
 
 import os
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = ''
 
 model = HuggingFaceHub(
     repo_id="HuggingFaceH4/zephyr-7b-beta",
