@@ -11,7 +11,7 @@ from langchain_core.prompts import MessagesPlaceholder
 from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain.embeddings import HuggingFaceEmbeddings
 import os
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = ''
 
 def get_documents_from_web(url):
     loader = WebBaseLoader(url)
