@@ -3,7 +3,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.llms import HuggingFaceHub
 
 import os
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = ''
 
 def chat_llms(question):
     # Instantiate Model
