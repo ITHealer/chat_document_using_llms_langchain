@@ -10,7 +10,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import HuggingFaceHub
 
 import os
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = ''
 
 def get_documents_from_web(url):
     loader = WebBaseLoader(url)
